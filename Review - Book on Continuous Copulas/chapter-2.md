@@ -31,6 +31,6 @@
         - Here, $\lambda_l = \lim_{q \text{ tends to } 0}\frac{C(q,q)}{q}$
         - Here, $\lambda_u = \lim_{q \text{ tends to } 1}\frac{1-2q+C(q,q)}{1-q}$
     
-- **Rosenblatt Transform & Conditional Sampling:** for conditional copulas. Transformation $R_C$ transforms a vector $\bold{u} \in (0,1)^d$ into a vector $\bold{u}' \in (0,1)^d$ such that: $u_1' = u_1, u_2' = C_{2|1}(u_2|u_1), ..., u_d' = C_{d|1,...,d-1}(u_d|u_1,...,u_{d-1})$.
+- **Rosenblatt Transform & Conditional Sampling:** for conditional copulas. Transformation $R_C$ transforms a vector $u \in (0,1)^d$ into a vector $u' \in (0,1)^d$ such that: $u_1' = u_1, u_2' = C_{2|1}(u_2|u_1), ..., u_d' = C_{d|1,...,d-1}(u_d|u_1,...,u_{d-1})$.
 
 - **Note:** towards the end of this chapter, there are some quasi-random random number generation methods that are used for variance reduction (i.e. _Latin hypercube sampling_), which might come in handy later.
